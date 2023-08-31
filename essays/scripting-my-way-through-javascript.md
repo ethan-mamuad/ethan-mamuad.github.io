@@ -6,7 +6,6 @@ date: 2023-08-28
 published: true
 labels:
   - Javascript
-  - ICS 314
 ---
 ## I. Introduction
 In this essay, we will take a look at my experience with using javascript for the first time and address what I think about the coding language. We will also be reflecting on the learning style in the class ICS 314 at the University of Hawaii at Manoa, where athletic software engineering is used.
