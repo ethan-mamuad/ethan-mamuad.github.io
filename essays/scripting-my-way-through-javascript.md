@@ -25,9 +25,7 @@ I have learned some new things especially from the ES6 portion of javascript, su
 ### II.D. Is Javascript a good programming language
 I think javascript is a good programming language because it is easy to learn and is dynamically typed. From the standpoint of a software engineer this is important because having it statically typed will make variables unable to change type. For example, If we were to declare a variable as a string it would stay a string if it were statically typed, but if its dynamically typed, there is no declaration of type so we can change its type dynamically.
 
-<img width="200px" 
-     class="rounded float-start pe-4" 
-     src="../img/Static vs. Dynamic.png" >
+<img width="300px" class="rounded float-start pe-4" src="../img/Static vs. Dynamic.png">
 
 ## III. Learning Style 
 
