@@ -22,9 +22,10 @@ I have used multiple languages through my time here at UH Manoa such as C, C++, 
 ### II.C. Things I learned 
 I have learned some new things especially from the ES6 portion of javascript, such as array and object destructuring, and promises. These are features that I thought were interesting and do not include some other programming languages. For example, the promises feature helps to fulfill either resolve or reject for an asynchronous operation, and is something very new to me. The destructuring of arrays and objects really helps because now we don’t need temporary variables. 
 
-<img width="300px" class="rounded float-start pe-4" src="../img/Static vs. Dynamic.png">
 ### II.D. Is Javascript a good programming language
 I think javascript is a good programming language because it is easy to learn and is dynamically typed. From the standpoint of a software engineer this is important because having it statically typed will make variables unable to change type. For example, If we were to declare a variable as a string it would stay a string if it were statically typed, but if its dynamically typed, there is no declaration of type so we can change its type dynamically.
+
+<img width="300px" class="rounded mx-auto d-block" src="../img/Static vs. Dynamic.png">
 
 ## III. Learning Style 
 
