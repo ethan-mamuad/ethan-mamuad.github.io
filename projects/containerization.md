@@ -13,47 +13,12 @@ summary: "Creating a containerized environment for the DISA BDP"
 
 <img class="img-fluid" src="../img/Docker-img.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+## Project Objective
+This project aimed to deploy a containerized environment for application development for DISA BDP. The project would use a big data platform which is a combination of several big data applications and utilities within a single solution. Through a containerization software called docker, I was able to package applications into containers with all their dependencies. Through these containers, I am able to create, deploy, and run applications. Containerization is a quick way to develop and ship applications, especially with varying systems/machines. Such applications that are important for big data include Hadoop, Elastic Search, Kibana, and Storm. Furthermore, The task was to create an environment that would be able to run multiple applications and have them communicate with each other through docker containers. 
 
-To give you a flavor of the game, here is an excerpt from one run:
+## My Responsibility 
+In this project, I was the sole student working with the docker code and worked with my mentor to make sure I was working in the right direction, so I was responsible for all the work in this project. The project was about creating a containerized environment that could house applications such as Elastic, Search, Kibana, and Storm, and make them function together cohesively. My task involved making configuration files for images (a file used to execute code in a Docker container) so that when the container ran on a certain image I would get the exact settings I wanted for that certain application. I also worked with yaml files because this allowed me to connect the containers to each other and make them communicate in the way I wanted them to. Within this yaml file, I was able to configure things such as ports of the container, whether or not a container depends on another to run, and volumes (a persistent storage location that exists outside of the container).
 
-<hr>
+## What I learned 
+I learned a lot through this project such as understanding Docker, Containerization, Elastic search, and Kibana, the importance of containerization, and learning to work on a topic having no prior experience. For example, I learned how to create a docker container through an image I set the configuration settings for and ran these containers in parallel with the docker-compose command. I also learned how to connect these containers so that they could communicate with each other and input and output data according to their needs. For example, you need to run Elastic Search before we run Kibana, because we need Elastic search to search engine and once running we can then run Kibana which visualizes the information ingested into it. Below is a snippet of the Elastic Search/Kibana docker-compose yaml file. 
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
