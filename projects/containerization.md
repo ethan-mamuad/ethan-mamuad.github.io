@@ -22,3 +22,5 @@ In this project, I was the sole student working with the docker code and worked 
 ## What I learned 
 I learned a lot through this project such as understanding Docker, Containerization, Elastic search, and Kibana, the importance of containerization, and learning to work on a topic having no prior experience. For example, I learned how to create a docker container through an image I set the configuration settings for and ran these containers in parallel with the docker-compose command. I also learned how to connect these containers so that they could communicate with each other and input and output data according to their needs. For example, you need to run Elastic Search before we run Kibana, because we need Elastic search to search engine and once running we can then run Kibana which visualizes the information ingested into it. Below is a snippet of the Elastic Search/Kibana docker-compose yaml file. 
 
+<img class="img-fluid" src="../img/ES-Kibana.png">
+
