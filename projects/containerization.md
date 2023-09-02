@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/NIWC.png
+image: img/NIWC.png
 title: "Containerization for Defense Information Systems Agency (DISA) Big Data Platform (BDP)"
 date: 2022
 published: true
