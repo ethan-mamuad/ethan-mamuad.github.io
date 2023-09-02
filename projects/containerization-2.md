@@ -10,52 +10,18 @@ labels:
   - Containerization
   - ELK Stack
   - Cybersecurity 
-summary: "Using the containerized environment to injest and and investigate big data"
+summary: "Using the containerized environment to ingest and and investigate big data"
 ---
 
 <img class="img-fluid" src="../img/Docker-img.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+## Project Objective
+This project aimed to Explore data to detect attack vectors based on indicators of compromise of cybersecurity. For this project, I had to use the ELK stack which is Elastic Search, Logstash, and Kibana through the containerized environment I have previously made. The goal of this project was to use Logstash to ingest compromised test data, and then pipeline that data to Elastic Search, and then to Kibana where the data would be visualized so we could look for indicators of compromise. Specifically, I was looking at network data and wanted to see if there was a way I could create a dashboard that could help monitor network data and alert a user if there was an attack. Such attacks include Man-in-the-middle, denial  of service, recon, and bot malware attacks. 
 
-To give you a flavor of the game, here is an excerpt from one run:
+## My Responsibility 
+In this project, I was the sole student working with the docker code and worked with my mentor to make sure I was working in the right direction, so I was responsible for all the work in this project. The project was about using the containerized environment I had previously made to work with Logstash, Elastic Search, and Kibana. My task involved running multiple containers in parallel so that I could ingest data through Logstash, run it through elastic search, and then visualize the data with Kibana. I also had to add volumes that are used for data persistence, which is important if we still want data to persist even though the container is stopped or removed. Finally, I was also responsible for creating a dashboard within Kibana that could possibly detect network attacks by just looking at the network data. 
 
-<hr>
+## What I learned 
+I learned a lot through this project such as understanding Docker at a higher level, Logstash, Elastic search, and Kibana, some basics of networking data, and learning to work on a topic having no prior experience. For example, I was able to create a fully working containerized Docker environment that could take in data through Logstash, which would run through Kibana and would be visualized on my browser, which helped me to increase my understanding of the ELK stack and how strong Kibana is as a visualization application. Another thing that I learned was the basics of networking data, because by looking at the network data I was able to do some research on what network data was the most helpful for detecting attacks, and what network data wasn't as helpful.
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+<img class="img-fluid" src="../img/ES-Kibana.png">
