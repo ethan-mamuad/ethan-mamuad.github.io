@@ -8,7 +8,7 @@ labels:
   - Smart Questions
   - 
 ---
-## I. Introduction
+## Introduction
 There are some questions that we just don’t know the answer to. In most cases we turn to the internet to help us answer this question since all we have to do is pull out our phone and type in the question into a google search page. Moreover, it is easily accessible for us to be able to get our questions answered, but what if our questions don’t have an answer to them. This is where we need to be able to ask a question, and whether that question is a good question or bad question depends on how the question is asked. Furthermore, for this essay we will take a look at why smart questions are important for smart software engineers, the difference between a smart and not smart question, and how the responses of these questions help to reflect the smartness of the question.
 
 ## Smart Questions for Software Engineers
@@ -17,7 +17,7 @@ Smart questions are very crucial for software engineers as asking a good questio
 ## Smart and Not Smart Questions
 
 ### Example of a Smart Question
-An example of a smart question is shown here:[Smart Question](https://stackoverflow.com/questions/52522565/git-is-not-working-after-macos-update-xcrun-error-invalid-active-developer-p/52522566#52522566 ).
+An example of a smart question is shown here: [Smart Question](https://stackoverflow.com/questions/52522565/git-is-not-working-after-macos-update-xcrun-error-invalid-active-developer-p/52522566#52522566 ).
 As we can see in this example the develop asks, “Git is not working after macOS update ("xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools")” and goes through their process of what happened prior to get the error that they did, they also were to provide that they were using an macOS system, and has a precise and informative problem. As we can see from the top solution to the problem we are able to get a step by step guide to fix the problem and more than one solution if the first solution doesn’t work. This shows that by asking a smart question we can get an effective and efficient answer to our questions.
 
 ### Example of a Not Smart Question
