@@ -74,7 +74,7 @@ just put this code ..
     zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
     ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
   </script>
-Now you are able to use zingChart.. read more [ZingChart](https://www.zingchart.com/docs/getting-started/your-first-javascript-chart). 
+Now you are able to use zingChart.. read more ZingChart (Link to Zingchart website).
 ```
 ## To Conclude
 After learning about smart and not smart questions we should be able to determine what makes a question smart, how the response helps to determine the smartness of a question, and why smart questions are important to software engineers. This is very important because by knowing how to  ask smart questions we can get efficient and effective solutions that can help us to solve any problems that may arise. 
