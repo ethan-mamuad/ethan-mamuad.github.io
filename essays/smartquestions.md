@@ -20,9 +20,32 @@ Smart questions are very crucial for software engineers as asking a good questio
 An example of a smart question is shown here: [Smart Question](https://stackoverflow.com/questions/52522565/git-is-not-working-after-macos-update-xcrun-error-invalid-active-developer-p/52522566#52522566 ).
 As we can see in this example the develop asks, “Git is not working after macOS update ("xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools")” and goes through their process of what happened prior to get the error that they did, they also were to provide that they were using an macOS system, and has a precise and informative problem. As we can see from the top solution to the problem we are able to get a step by step guide to fix the problem and more than one solution if the first solution doesn’t work. This shows that by asking a smart question we can get an effective and efficient answer to our questions.
 
+Good Question Example:
+```
+I updated to the latest OS, and/or restarted my computer (this happens on every major update, but this time all I did was restart my computer on 2022-09-13).
+
+This morning I navigated to my work's codebase in the command line on my MacBook Pro, typed in "git status" in the repository and received an error:
+
+(In 9/2022, this error was much different, but I didn't capture it)
+
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+
+Git will not work!
+
+How do I fix Git, and the command-line tools?
+
+```
+
 ### Example of a Not Smart Question
 An example of a not smart question is shown here: [Not Smart Question](https://stackoverflow.com/questions/42997442/how-to-use-zingchart-in-javascript).
 As we can see in this example the developer asks. “i want to use zingChart in my project using javascript can anyone have idea how to do ?”. This question is not a smart question because we can see the grammar is off, the question doesn’t provide the symptoms of the problem, and this problem has probably been solved elsewhere if the developer decided to do a quick google search. As we can see with the answer to the question in the post it just says to paste this without any explanation and gives a link to the zingchart website where they have the documentation for zingchart. This shows how a not smart question can lead to an answer that isn’t efficient and effective, because the developer could have gone to the zingchart site from the beginning. 
+
+Bad Question Example:
+```
+
+i want to use zingChart in my project using javascript can anyone have idea how to do ?
+
+```
 
 ## To Conclude
 After learning about smart and not smart questions we should be able to determine what makes a question smart, how the response helps to determine the smartness of a question, and why smart questions are important to software engineers. This is very important because by knowing how to  ask smart questions we can get efficient and effective solutions that can help us to solve any problems that may arise. 
