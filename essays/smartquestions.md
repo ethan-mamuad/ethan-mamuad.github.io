@@ -35,6 +35,25 @@ Git will not work!
 How do I fix Git, and the command-line tools?
 
 ```
+Good Question Reply Example:
+```
+Go back to your terminal and enter:
+
+xcode-select --install
+You'll then receive the following output:
+
+xcode-select: note: install requested for command line developer tools
+You will then be prompted in a window to update Xcode Command Line tools. (which could take a while)
+
+Open a new terminal window and your development tools should be returned.
+
+Addition: With any major or semi-major update you'll need to update the command line tools in order to get them functioning properly again. Check Xcode with any update. This goes beyond Mojave...
+
+After that restart your terminal
+
+Alternatively, IF that fails, and it might.... you'll get a pop-up box saying "Software not found on server", proceed to solution 2.
+
+```
 
 ### Example of a Not Smart Question
 An example of a not smart question is shown here: [Not Smart Question](https://stackoverflow.com/questions/42997442/how-to-use-zingchart-in-javascript).
@@ -46,7 +65,17 @@ Bad Question Example:
 i want to use zingChart in my project using javascript can anyone have idea how to do ?
 
 ```
+Bad Question Reply Example:
+```
+just put this code ..
 
+<script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+  <script>
+    zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+    ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
+  </script>
+Now you are able to use zingChart.. read more [ZingChart](https://www.zingchart.com/docs/getting-started/your-first-javascript-chart). 
+```
 ## To Conclude
 After learning about smart and not smart questions we should be able to determine what makes a question smart, how the response helps to determine the smartness of a question, and why smart questions are important to software engineers. This is very important because by knowing how to  ask smart questions we can get efficient and effective solutions that can help us to solve any problems that may arise. 
 
