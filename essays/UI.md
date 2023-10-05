@@ -28,4 +28,5 @@ Throughout this essay we have talked about my experience with raw CSS and HTML, 
 
 
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/okinio.png">
+<img width="300px" class="rounded float-end pe-4" src="../img/okinir.png">
