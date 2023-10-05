@@ -27,6 +27,9 @@ As for the disadvantages of UI frameworks, we know that by using a UI framework 
 Throughout this essay we have talked about my experience with raw CSS and HTML, Bootstrap, and how each has their own advantages and disadvantages. We can now understand whether a UI framework can be helpful or hurtful to our project, and whether or not we should just stick with basics. Moreover , I believe that using a framework to get started and then using CSS to customize your page further is a good way to make a custom UI. This combines the reusability of a UI framework and the customizability of CSS to help create a custom UI with a faster development process. 
 
 
+## Original Website
+<img width="300px" class="rounded pe-4" src="../img/Okinio.png">
 
-<img width="300px" class="rounded float-start pe-4" src="../img/Okinio.png">
-<img width="300px" class="rounded float-end pe-4" src="../img/Okinir.png">
+## Recreation of Website using Bootstrap
+<img width="300px" class="rounded pe-4" src="../img/Okinir.png">
+
