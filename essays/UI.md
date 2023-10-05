@@ -28,8 +28,8 @@ Throughout this essay we have talked about my experience with raw CSS and HTML, 
 
 
 ## Original Website
-<img width="300px" class="rounded pe-4" src="../img/Okinio.png">
+<img width="600px" class="class="rounded mx-auto d-block"src="../img/Okinio.png">
 
 ## Recreation of Website using Bootstrap
-<img width="300px" class="rounded pe-4" src="../img/Okinir.png">
+<img width="600px" class="class="rounded mx-auto d-block" src="../img/Okinir.png">
 
