@@ -10,7 +10,7 @@ labels:
   - ICS 314
   - Education
 ---
-<img width="600px" class="rounded mx-auto d-block" src="../img/Okinir.png">
+<img width="600px" class="rounded mx-auto d-block" src="../img/AI.jpg">
 
 ## I. Introduction
 With the use of AI becoming prevalent in recent years, it can be seen that AI has become a huge topic especially regarding the ethics surrounding it. For example, there are AI models that can create a picture from a description using words as well as ChatGPT which uses AI to best answer a question. Furthemore, AI has had a huge impact on education since students can now just type in the question to their problem with an AI application or just use it to help them if they are stuck and need some assistance. For example, AI can help with software engineering as AI is able to generate code based on a given description just like with pictures. Some examples of these AI applications include, github copilot, ChatGPT, Bard, etc. Even though some may choose to use AI to assist them, I choose not to, and in this essay I will explain why I choose not to use AI even though it is a helpful and readily available resource.  
@@ -41,7 +41,7 @@ I have not used AI for writing code because if AI could write my code for me the
 ### Documenting code
 I have not used AI for documenting code because I usually like to have my notes personalized to my coding style because it will help me and other people to understand exactly what I did while AI might not understand the right documentation to apply. 
 ### Quality assurance e.g. What’s wrong with this code or Fix the ESLint errors in code
-I have not used AI for quality assurance because debugging to me is a very important skill to have. If I tell AI to debug this <code> for me and it works I’ll probably just move on and not know how to fix it if I didn't have AI. I can learn to debug properly by not using AI for quality assurance. 
+I have not used AI for quality assurance because debugging to me is a very important skill to have. If I tell AI to debug this code for me and it works I’ll probably just move on and not know how to fix it if I didn't have AI. I can learn to debug properly by not using AI for quality assurance. 
 ### Other uses in ICS 314 not listed
 I have not used AI for other uses in ICS 314 not listed because I feel like it is a powerful tool./resource, but I usually just do a google search and can find the answers I need with that. Moreover, I don’t feel the need to use AI to assist me in programming as I feel like I learn better when I am able to find the solution myself since AI isn’t always reliable. 
 
