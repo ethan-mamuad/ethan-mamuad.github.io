@@ -30,7 +30,7 @@ The Company Connector web application provides a new way for local and non-local
 - Create Pages to show student and company profiles using user given profile data
 
 ### Example of the Student Home Page
-<img class="rounded mx-auto d-block" src="/img/Spage.png">
+<img width="600px" class="rounded mx-auto d-block" src="/img/Spage.png">
 
 ## What I learned 
 In this project I was able to learn how to use React, Bootstrap, and MongoDB to create a web application. I was able to learn how to use Boostrap and React together to create a user interface that a user could easily use to navigate the web application we built. This web application used MongoDB as a database and I was able to learn how to add collections to this database. Futhermore, I was able to pull data from this database and use this data to generate user profiles based on the given data. Most imporantantly I was able to learn the software engineering concepts needed to create a fully functioning web application. 
