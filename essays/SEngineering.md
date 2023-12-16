@@ -11,7 +11,7 @@ labels:
   - Development Environments 	 
   - User Interface Frameworks
 ---
-<img width="600px" class="rounded mx-auto d-block" src="../img/support.jpg>
+<img width="600px" class="rounded mx-auto d-block" src="../img/se.jpeg">
 
 ## I. Introduction
 In this class we have learned a lot about web applications and how we can build them to our needs, but software engineering in general can be branched out into many different concepts from open source software development to ethics in software engineering. I will reflect on some concepts of software engineering and will discuss what they mean beyond the realm of web application development. 
