@@ -14,7 +14,7 @@ labels:
 summary: "Creating an Opportunity Finder for Hawaii Students"
 ---
 
-<img class="rounded mx-auto d-block" src="/img/OP1.png">
+<img  width="600px" class="rounded mx-auto d-block" src="/img/OP1.png">
 
 ## Project Objective
 ### The problem: 
