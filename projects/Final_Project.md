@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/OP1.png
-title: "Opportunity Finder"
+title: "Opportunity Finder Web Application using React, Bootstrap, and MongoDB"
 date: 2023
 published: true
 labels:
