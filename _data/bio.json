@@ -1,0 +1,78 @@
+{
+  "basics": {
+    "name": "Ethan Mamuad",
+    "label": "Student",
+    "picture": "https://github.com/ethan-mamuad.png",
+    "email": "ethantm@hawaii.edu",
+    "phone": "808-745-4653",
+    "website": "https://ethan-mamuad.github.io",
+    "summary": "I graduated with a B.S. in Computer Engineering at the University of Hawaii at Manoa Decemeber 17th, Fall 2023.",
+    "location": { "address": "", "postalCode": "96825", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "ethan-mamuad", "url": "http://github.com/ethan-mamuad" },
+      { "network": "linkedin", "username": "ethan-mamuad", "url": "http://linkedin.com/in/ethan-mamuad" }
+    ]
+  },
+  "interests": [
+    { "name": "ELK Stack" },
+    { "name": "Containerization" },
+    { "name": "Big Data" },
+    { "name": "Networking" },
+    { "name": "Software" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "Matlab", "React", "Bootstrap", "CSS" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "WindowsOS", "Linux", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering",
+      "studyType": "B.S.",
+      "startDate": "2019-08-20",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "NIWC Pacific",
+      "position": "Big Data Developer",
+      "website": "",
+      "startDate": "2022-06-01",
+      "endDate": "2022-08-15",
+      "summary": "Use of containerization for a big data platform",
+      "highlights": [
+        "Deploy a containerized environment for application development for DISA BDP",
+        "Utilize the development environment to ingest and visualize data",
+        "Explore the data to detect attack vectors based on indicators of compromise of cybersecurity"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List Fall",
+      "date": "2019",
+      "awarder": "University of Hawaii Dean of Engineering",
+      "summary": "A scholarly award for students who demonstrate academic excellence based off of GPA that depends on the unversity and semester."
+    },
+    {
+      "title": "Dean's List Spring",
+      "date": "2023",
+      "awarder": "University of Hawaii Dean of Engineering",
+      "summary": "A scholarly award for students who demonstrate academic excellence based off of GPA that depends on the unversity and semester"
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Containerization for Defense Information Systems Agency (DISA) Big Data Platform (BDP) | Ethan Mamuad | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/ethan-mamuad.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ethan Mamuad | Professional Portfolio">
+    <meta property="og:url" content="https://ethan-mamuad.github.io/projects/containerization.html">
+    <meta property="og:title" content="Containerization for Defense Information Systems Agency (DISA) Big Data Platform (BDP) | Ethan Mamuad | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/ethan-mamuad.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Containerization for Defense Information Systems Agency (DISA) Big Data Platform (BDP) | Ethan Mamuad | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Ethan Mamuad</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Containerization for Defense Information Systems Agency (DISA) Big Data Platform (BDP)</h1>
+ <p><img class="rounded mx-auto d-block" src="../img/Docker-img.png" /></p>
+
+<h2 id="project-objective">Project Objective</h2>
+<p>This project aimed to deploy a containerized environment for application development for DISA BDP. The project would use a big data platform which is a combination of several big data applications and utilities within a single solution. Through a containerization software called docker, I was able to package applications into containers with all their dependencies. Through these containers, I am able to create, deploy, and run applications. Containerization is a quick way to develop and ship applications, especially with varying systems/machines. Such applications that are important for big data include Hadoop, Elastic Search, Kibana, and Storm. Furthermore, The task was to create an environment that would be able to run multiple applications and have them communicate with each other through docker containers.</p>
+
+<h2 id="my-responsibility">My Responsibility</h2>
+<p>In this project, I was the sole student working with the docker code and worked with my mentor to make sure I was working in the right direction, so I was responsible for all the work in this project. The project was about creating a containerized environment that could house applications such as Elastic, Search, Kibana, and Storm, and make them function together cohesively. My task involved making configuration files for images (a file used to execute code in a Docker container) so that when the container ran on a certain image I would get the exact settings I wanted for that certain application. I also worked with yaml files because this allowed me to connect the containers to each other and make them communicate in the way I wanted them to. Within this yaml file, I was able to configure things such as ports of the container, whether or not a container depends on another to run, and volumes (a persistent storage location that exists outside of the container).</p>
+
+<h2 id="what-i-learned">What I learned</h2>
+<p>I learned a lot through this project such as understanding Docker, Containerization, Elastic search, and Kibana, the importance of containerization, and learning to work on a topic having no prior experience. For example, I learned how to create a docker container through an image I set the configuration settings for and ran these containers in parallel with the docker-compose command. I also learned how to connect these containers so that they could communicate with each other and input and output data according to their needs. For example, you need to run Elastic Search before we run Kibana, because we need Elastic search to search engine and once running we can then run Kibana which visualizes the information ingested into it. Below is a snippet of the Elastic Search/Kibana docker-compose yaml file.</p>
+
+<p><img class="rounded mx-auto d-block" src="../img/ES-Kibana.png" /></p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
