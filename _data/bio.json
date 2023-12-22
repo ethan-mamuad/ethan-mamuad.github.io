@@ -6,7 +6,7 @@
     "email": "ethantm@hawaii.edu",
     "phone": "808-745-4653",
     "website": "https://ethan-mamuad.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering at the University of Hawaii at Manoa. I expect to graduate in Fall, 2023.",
+    "summary": "I graduated with a B.S. in Computer Engineering at the University of Hawaii at Manoa Decemeber 17th, Fall 2023.",
     "location": { "address": "", "postalCode": "96825", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "ethan-mamuad", "url": "http://github.com/ethan-mamuad" },
@@ -17,12 +17,13 @@
     { "name": "ELK Stack" },
     { "name": "Containerization" },
     { "name": "Big Data" },
-    { "name": "Networking" }
+    { "name": "Networking" },
+    { "name": "Software" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "Matlab" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "Matlab", "React", "Bootstrap", "CSS" ]
     },
     {
       "name": "Toolsets/OS",
